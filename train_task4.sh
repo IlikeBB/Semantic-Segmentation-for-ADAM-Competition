@@ -1,0 +1,1 @@
+python train.py --backbone resnet --lr 0.0003 --workers 4 --epochs 10000 --batch-size 8 --checkname exp6_BW --resume /ssd3/u1/Tas242/run/pascal/exp6_BW/experiment_1/checkpoint.pth.tar --eval-interval 1 --dataset pascal
